@@ -68,6 +68,8 @@ The generated bitstream was deployed on FPGA evaluation hardware. Integrated Log
 
   - Measured between ts_valid (timestamp captured) and itch_valid (ITCH fields available to downstream logic).
 
+![ilaImage](./docs/ila_waveforms.png)
+
 - Deterministic behavior:
 
   - The design introduces no jitter, as there are no CPU scheduling effects.

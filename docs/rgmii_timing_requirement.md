@@ -46,9 +46,9 @@ This document consolidates the derivation of timing constraints for RGMII interf
 
   These input_* numbers are what you supply to set_input_delay. They are external delays relative to the clock at the interface pin of FPGA[^10]. 
   [^10]:This defines the valid data eye as observed at the FPGA input.
-  * input_min = tskewR_min + total_skew + RXDLY[^9]
-  [^9]: Internal PHY RX clock delay. if the PHY JL2121 - pin 25
-(RXD0/RXDLY) is; 1 $\implies$ (RXDLY = 2ns) or 0 $\implies$ (RXDLY = 0).
+  * input_min = tskewR_min + total_skew + RXDLY[^9] 
+   [^9]: Internal PHY RX clock delay. if the PHY JL2121 - pin 25
+(RXD0/RXDLY) is;  $1 \implies$ (RXDLY = 2ns) or $0 \implies$ (RXDLY = 0).
 
 
 
