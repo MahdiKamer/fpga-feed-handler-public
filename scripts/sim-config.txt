@@ -1,0 +1,6 @@
+tb_top:250ns
+tb_mdio_cfg:100ns
+tb_mdio_cfg_transaction:100ns
+tb_header_skip_parser:650ns
+tb_top_loopback:850ns
+tb_keep_this_line_untouched:650ns
